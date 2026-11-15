@@ -4,31 +4,45 @@ Data warehouse em PostgreSQL 17 + dbt construído com dados públicos do DATASUS
 Os arquivos são transformados num sistema de origem simulado e carregados em camadas (stage, cadastro, movimento, dimensão e fato),
 com carga inicial e carga diária. Recorte: 2021–2022, 27 UFs, SIH (RD, SP, RJ), CNES (13 grupos), SIM e SINASC.
 
-Como o DW é construído: `docs/desenho_dw.md`. Execução num servidor Linux: `docs/execucao_remota.md`.
+Como o DW é construído: `docs/desenho_dw.md`.
 
 ## Preparação
 
+Precisa de Python 3.12, Docker e ~320 GB livres em disco para a carga inicial (2021); cada dia de carga diária acrescenta só o delta do dia.
+
 ```
-python -m venv .venv && .venv/bin/pip install -r requirements.txt
-python -m venv .venv-dbt && .venv-dbt/bin/pip install -r requirements-dbt.txt     # dbt em ambiente separado
-cp scripts/config_local.exemplo.py scripts/config_local.py                        # e preencha o sal (instruções no arquivo)
-docker compose up -d                                                              # PostgreSQL na porta 5433
+cp scripts/config_local.exemplo.py scripts/config_local.py   # e troque o sal (instruções no arquivo)
+./executar.sh ambiente                                       # .venv, .venv-dbt (dbt em ambiente separado) e PostgreSQL na porta 5433
 ```
 
-No Windows, troque `.venv/bin/` por `.venv\Scripts\`. O `scripts/config_local.py` fica fora do git: tem o sal do hash de dados pessoais
-(não pode mudar depois de gerar a origem) e pode trocar qualquer valor do `config.py`.
+O `scripts/config_local.py` fica fora do git: tem o sal do hash de dados pessoais (não pode mudar depois de gerar a origem)
+e pode trocar qualquer valor do `config.py`.
+
+A configuração do PostgreSQL fica no `docker-compose.yml` e é pensada para 16 núcleos e 32 GB de RAM;
+numa máquina menor, reduza `shared_buffers`, `effective_cache_size` e `work_mem`.
 
 ## Execução
 
-Com `./executar.sh <etapa>` (Linux) ou script a script, a partir de qualquer pasta:
+Com `./executar.sh <etapa>`, nesta ordem:
 
 | etapa | scripts | o que faz |
 |---|---|---|
-| `baixar` | 01, 02, 03 | lista o FTP, baixa o recorte e os domínios em `dados/raw/` (retomável) |
+| `baixar` | 01, 02, 03 | lista o FTP, baixa o recorte e os domínios em `dados/raw/` (pede confirmação; pode ser retomado) |
 | `origem` | 05 a 09 | gera a origem simulada em `dados/origem/` e valida (`docs/origem_simulada.md`) |
 | `estrutura` | 10 a 14 | gera os modelos dbt, valida com `dbt parse`, gera o catálogo (ctl) |
-| `carga_inicial` | 15, 16 | stages e `dbt run` com tudo até 31/12/2021 |
-| `dia AAAA-MM-DD` | 15, 16 | um dia de carga diária |
+| `carga_inicial` | 15, 16 | stages (em paralelo) e `dbt run` com tudo até 31/12/2021; no fim, `VACUUM ANALYZE` |
+| `retomar_carga_inicial` | 16 | depois de uma falha no dbt, roda só os modelos que faltaram |
+| `dia AAAA-MM-DD` | 15, 16 | um dia de carga diária (um dia por vez, em ordem) |
+
+O paralelismo muda com `PARTES=N` (processos do download e das stages) e `THREADS_DBT=N`.
+No fim da carga inicial, o `VACUUM ANALYZE` evita que o autovacuum trabalhe nas tabelas novas durante as cargas diárias.
+
+Espaço ocupado com as 27 UFs: `dados/raw` 28 GB e `dados/origem` 17 GB (2021 e 2022) e PostgreSQL ~265 GB depois da carga inicial (2021).
+
+Conferência:
+- `docs/origem_simulada.md` deve dizer "TODAS as validações passaram".
+- `dados/manifesto.csv` tem o sha256 de cada arquivo baixado: se o DATASUS republicar um arquivo, dá para saber se é a mesma versão.
+- `docs/execucoes/` guarda os tempos de cada modelo (`run_results_*.json`) e as contagens de cada carga.
 
 Exemplo só com RR:
 

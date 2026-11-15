@@ -294,11 +294,16 @@ def gerar_agg(inv, dims, fatos):
     dim_comum = inv["manuais"]["dim"] + [f"dim_dom_{d}" for d in config.DOMINIOS_COMPARTILHADOS if f"dim_dom_{d}" in dims["dom"]] + dims["nac"]
     # o agregado lê só fatos de nível 1
     fatos_nac = inv["manuais"]["fct"] + [f for f in fatos["nac"] if fatos["nivel"].get(f, 1) == 1]
+    fatos_foto = {f"fct_nac_cnes_{g.lower()}" for g in config.FATOS_FOTO_CNES}
     anteriores = list(inv["manuais"]["agg"])
     for i in range(1, config.AGG_NOVOS + 1):
         nome = f"agg_nac_{i:02d}"
         rng = gerador(nome)
         fatos_lidos = compor(rng, max(quantidade(rng, config.MEDIAS_AGG["fct"]), 1), [(1.0, fatos_nac)])
+        # o agregado agrupa por dt_carga, que o fato FOTO não tem
+        fatos_lidos.sort(key=lambda f: f in fatos_foto)
+        if fatos_lidos[0] in fatos_foto:
+            raise SystemExit(f"{nome}: todos os fatos lidos são FOTO; não há dt_carga para agrupar.")
         dim = compor(rng, quantidade(rng, config.MEDIAS_AGG["dim"]), [(1.0, dim_comum)])
         int_cad = compor(rng, quantidade(rng, config.MEDIAS_AGG["int_cad"]), [(0.5, inv["int_cad_nac"]), (0.5, compartilhados)])
         int_mov = compor(rng, quantidade(rng, config.MEDIAS_AGG["int_mov"]), [(1.0, inv["int_mov_nac"])])

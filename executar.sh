@@ -1,20 +1,21 @@
 #!/usr/bin/env bash
-# Executa o DW num servidor Linux, uma etapa por vez (passo a passo em docs/execucao_remota.md).
+# Constrói o DW no Linux, uma etapa por vez, na ordem abaixo (detalhes no README).
 #
 # Uso:  ./executar.sh <etapa> [data]
 #   ambiente             cria .venv (scripts) e .venv-dbt (dbt) e sobe o PostgreSQL (docker compose)
 #   baixar               baixa o recorte do FTP e os domínios: confirma uma vez e baixa em PARTES processos (padrão 8; pode ser retomado)
-#   origem               gera a origem simulada das 27 UFs e valida (scripts 05 a 09)
+#   origem               gera a origem simulada das 27 UFs em 4 processos e valida (scripts 05 a 09)
 #   estrutura            gera os modelos do DW, valida com dbt parse, gera o ctl e carrega os seeds (10 a 14)
-#   carga_inicial        stages + dbt com tudo até 31/12/2021, nas 27 UFs
+#   carga_inicial        stages (PARTES processos, padrão 4) + dbt (THREADS_DBT, padrão 8) com tudo até 31/12/2021, nas 27 UFs
+#   retomar_carga_inicial  se o dbt da carga inicial falhou: roda só os modelos que falharam ou ficaram para trás
 #   dia AAAA-MM-DD       um dia de carga diária (delta + merge), nas 27 UFs
 #
-# Rode dentro do tmux, para continuar se a conexão SSH cair. Cada etapa grava o log em dados/logs/<etapa>.log e para no primeiro erro.
+# Cada etapa grava o log em dados/logs/<etapa>.log e para no primeiro erro.
 
 set -euo pipefail
 cd "$(dirname "$0")"
 
-PY=".venv/bin/python -X utf8"
+PY=".venv/bin/python -X utf8 -u"   # -u: o log mostra o andamento na hora, não só no fim
 DBT=".venv-dbt/bin/dbt"
 LOGS=dados/logs
 mkdir -p "$LOGS" docs/execucoes
@@ -31,7 +32,7 @@ todas_as_ufs() { $PY -c "import sys; sys.path.insert(0, 'scripts'); import confi
 dbt_cmd() { (cd dw_dbt && ../$DBT "$@" --profiles-dir .); }
 
 ambiente() {
-    [ -f scripts/config_local.py ] || { echo "Falta scripts/config_local.py: copie o do PC original (o sal tem que ser o MESMO)."; exit 1; }
+    [ -f scripts/config_local.py ] || { echo "Falta scripts/config_local.py: copie scripts/config_local.exemplo.py e troque o sal."; exit 1; }
     python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
     python3 -m venv .venv-dbt && .venv-dbt/bin/pip install -r requirements-dbt.txt
     docker compose up -d
@@ -53,11 +54,25 @@ baixar() {
     registrar baixar $PY scripts/03_baixar_dominio.py
 }
 
+gerar_origem_das_ufs() {
+    $PY scripts/05_gerar_origem_sih.py --ufs "$@" && $PY scripts/07_gerar_origem_cnes.py --ufs "$@"
+}
+
 origem() {
-    # SIH-SP e CNES-PF são grandes: o DuckDB pode usar mais memória (MEMORIA_DUCKDB=10GB ./executar.sh origem)
-    registrar origem $PY scripts/05_gerar_origem_sih.py --todas
+    # Grupos de UFs com volume parecido no manifesto; SP sozinho já é 1/4 do total.
+    # Cada UF só lê os próprios arquivos, então o paralelismo não muda o resultado (o 09 confere).
+    # Memória para 32 GB de RAM; se faltar, o DuckDB usa o disco.
+    local grupos=("SP" "MG SC GO ES PB RN RO AC AP" "RJ BA CE PA DF MS AL TO" "PR RS PE MA MT AM PI SE RR") pids=()
+    echo "== $(date '+%F %T')  SIH e CNES em ${#grupos[@]} processos (andamento em $LOGS/origem_parte_K.log)" | tee -a "$LOGS/origem.log"
+    for i in "${!grupos[@]}"; do
+        local memoria=3GB; [ "${grupos[$i]}" = "SP" ] && memoria=8GB
+        MEMORIA_DUCKDB=$memoria gerar_origem_das_ufs ${grupos[$i]} > "$LOGS/origem_parte_$((i + 1)).log" 2>&1 &
+        pids+=($!)
+    done
+    for pid in "${pids[@]}"; do
+        wait "$pid" || { echo "A geração da origem falhou: veja $LOGS/origem_parte_*.log" | tee -a "$LOGS/origem.log"; exit 1; }
+    done
     registrar origem $PY scripts/06_gerar_origem_sim_sinasc.py --todas
-    registrar origem $PY scripts/07_gerar_origem_cnes.py --todas
     registrar origem $PY scripts/08_gerar_origem_dominios.py
     registrar origem $PY scripts/09_validar_origem.py
 }
@@ -66,17 +81,40 @@ estrutura() {
     registrar estrutura $PY scripts/10_medir_codigos.py
     registrar estrutura $PY scripts/11_gerar_modelos_dbt.py
     registrar estrutura $PY scripts/12_gerar_derivados.py
-    registrar estrutura $PY scripts/13_gerar_dim_fato_agg.py
+    registrar estrutura $PY scripts/13_gerar_dim_fct_agg.py
     registrar estrutura dbt_cmd parse
     registrar estrutura $PY scripts/14_gerar_ctl.py
     registrar estrutura dbt_cmd seed
 }
 
 carga_inicial() {
-    registrar carga_inicial $PY scripts/15_extrair_para_stage.py --data-ref 2021-12-31 --carga-inicial --ufs $(todas_as_ufs)
-    registrar carga_inicial dbt_cmd run --vars '{dt_carga: "2021-12-31"}'
+    local partes=${PARTES:-4} ufs pids=()
+    ufs=$(todas_as_ufs)
+    echo "== $(date '+%F %T')  extração em $partes processos (andamento em $LOGS/carga_inicial_extracao_K.log)" | tee -a "$LOGS/carga_inicial.log"
+    for k in $(seq 1 "$partes"); do
+        $PY scripts/15_extrair_para_stage.py --data-ref 2021-12-31 --carga-inicial --ufs $ufs --parte "$k/$partes" \
+            > "$LOGS/carga_inicial_extracao_$k.log" 2>&1 &
+        pids+=($!)
+    done
+    for pid in "${pids[@]}"; do
+        wait "$pid" || { echo "A extração falhou: veja $LOGS/carga_inicial_extracao_*.log" | tee -a "$LOGS/carga_inicial.log"; exit 1; }
+    done
+    registrar carga_inicial dbt_cmd run --vars '{dt_carga: "2021-12-31"}' --threads "${THREADS_DBT:-8}"
     cp dw_dbt/target/run_results.json docs/execucoes/run_results_carga_inicial.json
+    finalizar_carga_inicial
+}
+
+retomar_carga_inicial() {
+    registrar carga_inicial dbt_cmd retry --threads "${THREADS_DBT:-8}"
+    cp dw_dbt/target/run_results.json docs/execucoes/run_results_carga_inicial_retomada.json
+    finalizar_carga_inicial
+}
+
+finalizar_carga_inicial() {
     registrar carga_inicial $PY scripts/16_contar_linhas.py carga_inicial
+    # Sem isto, o autovacuum trabalharia nas tabelas novas durante as primeiras cargas diárias e mudaria os tempos medidos.
+    registrar carga_inicial docker exec dw_datasus vacuumdb -U dw -d dw --analyze --jobs 8
+    registrar carga_inicial docker exec dw_datasus psql -U dw -d dw -c "CHECKPOINT"
 }
 
 dia() {
@@ -89,7 +127,7 @@ dia() {
 
 etapa=${1:-}
 case "$etapa" in
-    ambiente|baixar|origem|estrutura|carga_inicial) "$etapa" ;;
+    ambiente|baixar|origem|estrutura|carga_inicial|retomar_carga_inicial) "$etapa" ;;
     dia) dia "${2:-}" ;;
-    *) sed -n '2,13p' "$0"; exit 1 ;;
+    *) sed -n '2,14p' "$0"; exit 1 ;;
 esac

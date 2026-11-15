@@ -2,6 +2,7 @@
 
 Uso:  python scripts/15_extrair_para_stage.py --data-ref 2021-12-31 --carga-inicial
       python scripts/15_extrair_para_stage.py --data-ref 2022-01-03 [--ufs RR SP]
+      python scripts/15_extrair_para_stage.py --data-ref 2021-12-31 --carga-inicial --parte 2/4   # 2ª de 4 fatias, em paralelo
 
 A data de referência é o DT_CARGA (dia da execução − 1).
   - movimento (stg_mov): linhas com DT_TRANSACAO depois da última carga (o maior DT_CARGA da tabela que consome a stage) e até a data.
@@ -100,12 +101,17 @@ def main():
     parser.add_argument("--data-ref", required=True, help="Data de referência AAAA-MM-DD (vira DT_CARGA)")
     parser.add_argument("--carga-inicial", action="store_true", help="Carga inicial: ignora a marca d'água e leva todas as fotos do CNES")
     parser.add_argument("--ufs", nargs="+", default=["RR"])
+    parser.add_argument("--parte", default="1/1", help="K/N: este processo carrega só a K-ésima de N fatias das stages. "
+                                                       "Rode N processos juntos para usar vários núcleos")
     argumentos = parser.parse_args()
+    k, n = map(int, argumentos.parte.split("/"))
 
-    con = origem.abrir_duckdb("extracao_stage")
+    con = origem.abrir_duckdb(f"extracao_stage_{k}")  # processos em paralelo não podem dividir a pasta temporária
     conexao = dw.conectar()
     cur = conexao.cursor()
     itens = [i for uf in argumentos.ufs for i in tabelas_da_uf(uf.upper())] + dominios()
+    # fatias intercaladas: as stages de uma UF grande ficam espalhadas entre os processos
+    itens = itens[k - 1::n]
     total_linhas, inicio_geral = 0, time.time()
     for item in itens:
         inicio = time.time()

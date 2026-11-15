@@ -1,6 +1,6 @@
 # Origem simulada: validação (27 UFs)
 
-Gerado em 2026-11-14 por `09_validar_origem.py`. UFs: AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, MT, PA, PB, PE, PI, PR, RJ, RN, RO, RR, RS, SC, SE, SP, TO.
+Gerado em 2026-11-15 por `09_validar_origem.py`. UFs: AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, MT, PA, PB, PE, PI, PR, RJ, RN, RO, RR, RS, SC, SE, SP, TO.
 
 **Resultado: TODAS as validações passaram.** 61 tabelas por UF (cada uma nas UFs em que o grupo existe); 235 tabelas de domínio.
 

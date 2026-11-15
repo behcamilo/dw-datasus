@@ -96,6 +96,7 @@ if __name__ == "__main__":
         try:
             destino = baixar_item(item)
             print(f"  ok, {destino.stat().st_size / 1024:.0f} KB")
+            feitos.add((item["fonte"], nome))  # a SIGTAP de 12/2022 está nas duas listas: não baixar duas vezes
         except Exception as erro:
             print(f"  FALHOU: {erro}")
             falhas.append(nome)

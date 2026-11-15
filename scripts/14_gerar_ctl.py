@@ -6,6 +6,7 @@ Uso: cd dw_dbt && dbt parse --profiles-dir . && cd .. && python scripts/14_gerar
 
 import hashlib
 import json
+import os
 
 import pandas as pd
 
@@ -60,6 +61,7 @@ def main():
     lineage = pd.DataFrame(arestas).drop_duplicates().sort_values(["cod_tabela_destino", "cod_tabela_origem"])
     if tabela["cod_tabela"].duplicated().any():
         raise SystemExit("Colisão de cod_tabela: aumentar o digest_size.")
+    os.makedirs(PASTA_SEEDS, exist_ok=True)  # os seeds ficam fora do git, então a pasta não vem no clone
     tabela.to_csv(f"{PASTA_SEEDS}/ctl_tabela.csv", index=False)
     lineage.to_csv(f"{PASTA_SEEDS}/ctl_lineage.csv", index=False)
     print(f"ctl_tabela: {len(tabela)} tabelas | ctl_lineage: {len(lineage)} dependências")
