@@ -1,0 +1,1190 @@
+﻿sistema,grupo,coluna_original,assunto,observacao
+CNES,EQ,CNES,equipamento,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,EQ,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EQ,TIPEQUIP,equipamento,Liga a tabela auxiliar de equipamentos (TAB_CNES).
+CNES,EQ,CODEQUIP,equipamento,Liga a tabela auxiliar de equipamentos (TAB_CNES).
+CNES,EQ,QT_EXIST,equipamento,
+CNES,EQ,QT_USO,equipamento,
+CNES,EQ,IND_SUS,equipamento,
+CNES,EQ,IND_NSUS,equipamento,
+CNES,EQ,COMPETEN,equipamento,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,EQ,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,CNES,habilitacao,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,HB,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,COD_CEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,VINC_SUS,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,TP_PREST,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,HB,SGRUPHAB,habilitacao,
+CNES,HB,CMPT_INI,habilitacao,
+CNES,HB,CMPT_FIM,habilitacao,
+CNES,HB,DTPORTAR,habilitacao,
+CNES,HB,PORTARIA,habilitacao,
+CNES,HB,MAPORTAR,habilitacao,
+CNES,HB,NULEITOS,habilitacao,
+CNES,HB,COMPETEN,habilitacao,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,HB,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,CNES,leito,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,LT,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,LT,TP_LEITO,leito,Liga a tabela auxiliar de leitos (TAB_CNES).
+CNES,LT,CODLEITO,leito,Liga a tabela auxiliar de leitos (TAB_CNES).
+CNES,LT,QT_EXIST,leito,
+CNES,LT,QT_CONTR,leito,
+CNES,LT,QT_SUS,leito,
+CNES,LT,QT_NSUS,leito,
+CNES,LT,COMPETEN,leito,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,LT,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,CNES,profissional,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,PF,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,PF,CPF_PROF,profissional,HASH na origem simulada (decisão 2026-10-21): sha256 de config.SAL_HASH_PII + valor. 
+CNES,PF,CPFUNICO,profissional,
+CNES,PF,CBO,profissional,Ocupação (liga à tabela CBO).
+CNES,PF,CBOUNICO,profissional,
+CNES,PF,NOMEPROF,profissional,FORA da origem simulada (decisão 2026-10-21): nome de pessoa (dado pessoal).
+CNES,PF,CNS_PROF,profissional,HASH na origem simulada (decisão 2026-10-21): sha256 de config.SAL_HASH_PII + valor. 
+CNES,PF,CONSELHO,profissional,
+CNES,PF,REGISTRO,profissional,
+CNES,PF,VINCULAC,vinculo,
+CNES,PF,VINCUL_C,vinculo,
+CNES,PF,VINCUL_A,vinculo,
+CNES,PF,VINCUL_N,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,PF,PROF_SUS,vinculo,
+CNES,PF,PROFNSUS,vinculo,
+CNES,PF,HORAOUTR,carga_horaria,
+CNES,PF,HORAHOSP,carga_horaria,
+CNES,PF,HORA_AMB,carga_horaria,
+CNES,PF,COMPETEN,profissional,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,PF,UFMUNRES,profissional,
+CNES,PF,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,CNES,servico_especializado,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,SR,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,SERV_ESP,servico_especializado,Liga a tabela auxiliar de serviços especializados (TAB_CNES).
+CNES,SR,CLASS_SR,servico_especializado,
+CNES,SR,SRVUNICO,servico_especializado,
+CNES,SR,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,SR,CARACTER,servico_especializado,
+CNES,SR,AMB_NSUS,servico_especializado,
+CNES,SR,AMB_SUS,servico_especializado,
+CNES,SR,HOSP_NSUS,servico_especializado,
+CNES,SR,HOSP_SUS,servico_especializado,
+CNES,SR,COMPETEN,servico_especializado,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,SR,CONTSRVU,servico_especializado,
+CNES,SR,CNESTERC,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,SR,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,ST,CNES,identificacao,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento.
+CNES,ST,CODUFMUN,identificacao,Município do estabelecimento (liga ao cadastro de municípios).
+CNES,ST,COD_CEP,identificacao,
+CNES,ST,CPF_CNPJ,identificacao,CPF ou CNPJ do estabelecimento: pode ser dado pessoal quando PF_PJ indica pessoa física.
+CNES,ST,PF_PJ,identificacao,
+CNES,ST,NIV_DEP,identificacao,
+CNES,ST,CNPJ_MAN,identificacao,
+CNES,ST,COD_IR,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,REGSAUDE,regionalizacao,
+CNES,ST,MICR_REG,regionalizacao,
+CNES,ST,DISTRSAN,regionalizacao,
+CNES,ST,DISTRADM,regionalizacao,
+CNES,ST,VINC_SUS,gestao_vinculo,
+CNES,ST,TPGESTAO,gestao_vinculo,
+CNES,ST,ESFERA_A,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,RETENCAO,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,ATIVIDAD,gestao_vinculo,
+CNES,ST,NATUREZA,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,CLIENTEL,gestao_vinculo,
+CNES,ST,TP_UNID,identificacao,
+CNES,ST,TURNO_AT,gestao_vinculo,
+CNES,ST,NIV_HIER,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,TP_PREST,identificacao,
+CNES,ST,CO_BANCO,fora,FORA (revisão 2026-10-21): dado bancário; não usado no DW e é dado pessoal em estabelecimento de pessoa física.
+CNES,ST,CO_AGENC,fora,FORA (revisão 2026-10-21): dado bancário; não usado no DW e é dado pessoal em estabelecimento de pessoa física.
+CNES,ST,C_CORREN,fora,FORA (revisão 2026-10-21): dado bancário; não usado no DW e é dado pessoal em estabelecimento de pessoa física.
+CNES,ST,CONTRATM,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,DT_PUBLM,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,CONTRATE,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,DT_PUBLE,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,ALVARA,contratos_alvara,
+CNES,ST,DT_EXPED,contratos_alvara,
+CNES,ST,ORGEXPED,contratos_alvara,
+CNES,ST,AV_ACRED,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,CLASAVAL,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,DT_ACRED,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AV_PNASS,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,DT_PNASS,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,GESPRG1E,gestao_programas,
+CNES,ST,GESPRG1M,gestao_programas,
+CNES,ST,GESPRG2E,gestao_programas,
+CNES,ST,GESPRG2M,gestao_programas,
+CNES,ST,GESPRG4E,gestao_programas,
+CNES,ST,GESPRG4M,gestao_programas,
+CNES,ST,NIVATE_A,gestao_programas,
+CNES,ST,GESPRG3E,gestao_programas,
+CNES,ST,GESPRG3M,gestao_programas,
+CNES,ST,GESPRG5E,gestao_programas,
+CNES,ST,GESPRG5M,gestao_programas,
+CNES,ST,GESPRG6E,gestao_programas,
+CNES,ST,GESPRG6M,gestao_programas,
+CNES,ST,NIVATE_H,gestao_programas,
+CNES,ST,QTLEITP1,leitos_resumo,
+CNES,ST,QTLEITP2,leitos_resumo,
+CNES,ST,QTLEITP3,leitos_resumo,
+CNES,ST,LEITHOSP,leitos_resumo,
+CNES,ST,QTINST01,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. Grupos de colunas numeradas (QTINST01..37, SERAPxx, COMISSxx, APxxCVxx): candidatas a tabelas filhas com uma linha por item (ordem + valor)."
+CNES,ST,QTINST02,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST03,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST04,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST05,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST06,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST07,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST08,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST09,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST10,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST11,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST12,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST13,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST14,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,URGEMERG,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST15,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST16,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST17,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST18,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST19,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST20,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST21,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST22,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST23,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST24,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST25,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST26,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST27,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST28,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST29,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST30,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,ATENDAMB,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST31,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST32,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST33,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,CENTRCIR,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST34,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST35,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST36,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTINST37,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,CENTROBS,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,QTLEIT05,leitos_resumo,
+CNES,ST,QTLEIT06,leitos_resumo,
+CNES,ST,QTLEIT07,leitos_resumo,
+CNES,ST,QTLEIT08,leitos_resumo,
+CNES,ST,QTLEIT09,leitos_resumo,
+CNES,ST,QTLEIT19,leitos_resumo,
+CNES,ST,QTLEIT20,leitos_resumo,
+CNES,ST,QTLEIT21,leitos_resumo,
+CNES,ST,QTLEIT22,leitos_resumo,
+CNES,ST,QTLEIT23,leitos_resumo,
+CNES,ST,QTLEIT32,leitos_resumo,
+CNES,ST,QTLEIT34,leitos_resumo,
+CNES,ST,QTLEIT38,leitos_resumo,
+CNES,ST,QTLEIT39,leitos_resumo,
+CNES,ST,QTLEIT40,leitos_resumo,
+CNES,ST,CENTRNEO,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,ATENDHOS,instalacoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP01P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP01T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP02P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP02T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP03P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP03T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP04P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP04T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP05P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP05T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP06P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP06T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP07P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP07T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP08P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP08T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP09P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP09T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP10P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP10T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP11P,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAP11T,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,SERAPOIO,servicos_apoio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,RES_BIOL,residuos,
+CNES,ST,RES_QUIM,residuos,
+CNES,ST,RES_RADI,residuos,
+CNES,ST,RES_COMU,residuos,
+CNES,ST,COLETRES,residuos,
+CNES,ST,COMISS01,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS02,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS03,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS04,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS05,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS06,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS07,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS08,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS09,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS10,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS11,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISS12,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,COMISSAO,comissoes,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP01CV01,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP01CV02,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP01CV03,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP01CV04,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP01CV05,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP01CV06,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP01CV07,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP02CV01,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP02CV02,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP02CV03,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP02CV04,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP02CV05,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP02CV06,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP02CV07,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP03CV01,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP03CV02,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP03CV03,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP03CV04,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP03CV05,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP03CV06,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP03CV07,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP04CV01,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP04CV02,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP04CV03,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP04CV04,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP04CV05,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP04CV06,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP04CV07,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP05CV01,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP05CV02,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP05CV03,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP05CV04,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP05CV05,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP05CV06,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP05CV07,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP06CV01,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP06CV02,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP06CV03,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP06CV04,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP06CV05,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP06CV06,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP06CV07,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP07CV01,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP07CV02,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP07CV03,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP07CV04,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,AP07CV05,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP07CV06,atendimento_convenio,"TABELA FILHA: uma linha por item PREENCHIDO (item + valor); item vazio, zerado ou sentinela não vira linha. "
+CNES,ST,AP07CV07,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,ST,ATEND_PR,identificacao,
+CNES,ST,DT_ATUAL,identificacao,
+CNES,ST,COMPETEN,identificacao,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,ST,NAT_JUR,identificacao,
+SIH,RD,UF_ZI,internacao,UF de gestão (zona de interesse); o arquivo é por UF.
+SIH,RD,ANO_CMPT,internacao,CHAVE: repetir em todas as tabelas do grupo. Competência (ano). N_AIH + SEQUENCIA + competência é único (ver exploração).
+SIH,RD,MES_CMPT,internacao,CHAVE: repetir em todas as tabelas do grupo. Competência (mês).
+SIH,RD,ESPEC,internacao,
+SIH,RD,CGC_HOSP,estabelecimento,
+SIH,RD,N_AIH,internacao,CHAVE: repetir em todas as tabelas do grupo. Número da AIH; repete entre linhas (ver seção 7 da exploração).
+SIH,RD,IDENT,internacao,
+SIH,RD,CEP,paciente,
+SIH,RD,MUNIC_RES,paciente,"Município de residência (6 dígitos, liga ao cadastro de municípios)."
+SIH,RD,NASC,paciente,
+SIH,RD,SEXO,paciente,
+SIH,RD,UTI_MES_IN,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,UTI_MES_AN,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,UTI_MES_AL,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,UTI_MES_TO,uti,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RD,MARCA_UTI,uti,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RD,UTI_INT_IN,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,UTI_INT_AN,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,UTI_INT_AL,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,UTI_INT_TO,uti,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RD,DIAR_ACOM,internacao,
+SIH,RD,QT_DIARIAS,internacao,
+SIH,RD,PROC_SOLIC,procedimento_financiamento,Procedimento solicitado (liga à SIGTAP).
+SIH,RD,PROC_REA,procedimento_financiamento,Procedimento realizado (liga à SIGTAP).
+SIH,RD,VAL_SH,valores,
+SIH,RD,VAL_SP,valores,
+SIH,RD,VAL_SADT,valores,
+SIH,RD,VAL_RN,valores,
+SIH,RD,VAL_ACOMP,valores,
+SIH,RD,VAL_ORTP,valores,
+SIH,RD,VAL_SANGUE,valores,
+SIH,RD,VAL_SADTSR,valores,
+SIH,RD,VAL_TRANSP,valores,
+SIH,RD,VAL_OBSANG,valores,
+SIH,RD,VAL_PED1AC,valores,
+SIH,RD,VAL_TOT,valores,
+SIH,RD,VAL_UTI,valores,Valor de UTI: fica em valores; o detalhe de dias de UTI está em uti.
+SIH,RD,US_TOT,valores,
+SIH,RD,DT_INTER,internacao,
+SIH,RD,DT_SAIDA,internacao,
+SIH,RD,DIAG_PRINC,diagnostico,TABELA FILHA 'diagnostico' (uma linha por diagnóstico): principal com ORDEM 0.
+SIH,RD,DIAG_SECUN,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,COBRANCA,internacao,Motivo de saída/permanência; mantido em internacao.
+SIH,RD,NATUREZA,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,NAT_JUR,estabelecimento,
+SIH,RD,GESTAO,estabelecimento,
+SIH,RD,RUBRICA,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,IND_VDRL,gestacao,"ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RD,MUNIC_MOV,estabelecimento,
+SIH,RD,COD_IDADE,paciente,
+SIH,RD,IDADE,paciente,
+SIH,RD,DIAS_PERM,internacao,
+SIH,RD,MORTE,internacao,
+SIH,RD,NACIONAL,paciente,
+SIH,RD,NUM_PROC,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,CAR_INT,internacao,
+SIH,RD,TOT_PT_SP,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,CPF_AUT,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,HOMONIMO,paciente,
+SIH,RD,NUM_FILHOS,gestacao,"ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RD,INSTRU,paciente,
+SIH,RD,CID_NOTIF,diagnostico,"TABELA FILHA 'diagnostico' (decisão 2026-10-21): CID de notificação vira uma linha própria com TIPO 'notificacao' (sem ordem de 0 a 7; só quando preenchido, ~1,1% das linhas)."
+SIH,RD,CONTRACEP1,gestacao,"ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RD,CONTRACEP2,gestacao,"ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RD,GESTRISCO,gestacao,"VALOR PADRÃO (decisão 2026-10-21): vale '1' em 99,9% das linhas e NÃO conta como conteúdo na regra da tabela esparsa. IND_VDRL conta como dado."
+SIH,RD,INSC_PN,gestacao,"ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RD,SEQ_AIH5,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,CBOR,paciente,Ocupação do paciente (CBO).
+SIH,RD,CNAER,paciente,
+SIH,RD,VINCPREV,paciente,
+SIH,RD,GESTOR_COD,gestor_auditoria,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RD,GESTOR_TP,gestor_auditoria,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RD,GESTOR_CPF,gestor_auditoria,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). HASH na origem simulada (decisão 2026-10-21): sha256 de config.SAL_HASH_PII + valor. 
+SIH,RD,GESTOR_DT,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,CNES,estabelecimento,Liga ao cadastro CNES.
+SIH,RD,CNPJ_MANT,estabelecimento,
+SIH,RD,INFEHOSP,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,CID_ASSO,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,CID_MORTE,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,COMPLEX,procedimento_financiamento,
+SIH,RD,FINANC,procedimento_financiamento,
+SIH,RD,FAEC_TP,procedimento_financiamento,
+SIH,RD,REGCT,procedimento_financiamento,
+SIH,RD,RACA_COR,paciente,
+SIH,RD,ETNIA,paciente,
+SIH,RD,SEQUENCIA,internacao,CHAVE: repetir em todas as tabelas do grupo. Sequência dentro da AIH.
+SIH,RD,REMESSA,internacao,
+SIH,RD,AUD_JUST,gestor_auditoria,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RD,SIS_JUST,gestor_auditoria,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RD,VAL_SH_FED,valores,
+SIH,RD,VAL_SP_FED,valores,
+SIH,RD,VAL_SH_GES,valores,
+SIH,RD,VAL_SP_GES,valores,
+SIH,RD,VAL_UCI,valores,
+SIH,RD,MARCA_UCI,uti,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RD,DIAGSEC1,diagnostico,TABELA FILHA 'diagnostico': secundário com ORDEM 1; o tipo é TPDISEC1.
+SIH,RD,DIAGSEC2,diagnostico,TABELA FILHA 'diagnostico': secundário com ORDEM 2; o tipo é TPDISEC2.
+SIH,RD,DIAGSEC3,diagnostico,TABELA FILHA 'diagnostico': secundário com ORDEM 3; o tipo é TPDISEC3.
+SIH,RD,DIAGSEC4,diagnostico,TABELA FILHA 'diagnostico': secundário com ORDEM 4; o tipo é TPDISEC4.
+SIH,RD,DIAGSEC5,diagnostico,TABELA FILHA 'diagnostico': secundário com ORDEM 5; o tipo é TPDISEC5.
+SIH,RD,DIAGSEC6,diagnostico,TABELA FILHA 'diagnostico': secundário com ORDEM 6; o tipo é TPDISEC6.
+SIH,RD,DIAGSEC7,diagnostico,TABELA FILHA 'diagnostico': secundário com ORDEM 7; o tipo é TPDISEC7.
+SIH,RD,DIAGSEC8,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,DIAGSEC9,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,TPDISEC1,diagnostico,TABELA FILHA 'diagnostico': tipo do diagnóstico de ORDEM 1 (vai na mesma linha do DIAGSEC1).
+SIH,RD,TPDISEC2,diagnostico,TABELA FILHA 'diagnostico': tipo do diagnóstico de ORDEM 2 (vai na mesma linha do DIAGSEC2).
+SIH,RD,TPDISEC3,diagnostico,TABELA FILHA 'diagnostico': tipo do diagnóstico de ORDEM 3 (vai na mesma linha do DIAGSEC3).
+SIH,RD,TPDISEC4,diagnostico,TABELA FILHA 'diagnostico': tipo do diagnóstico de ORDEM 4 (vai na mesma linha do DIAGSEC4).
+SIH,RD,TPDISEC5,diagnostico,TABELA FILHA 'diagnostico': tipo do diagnóstico de ORDEM 5 (vai na mesma linha do DIAGSEC5).
+SIH,RD,TPDISEC6,diagnostico,TABELA FILHA 'diagnostico': tipo do diagnóstico de ORDEM 6 (vai na mesma linha do DIAGSEC6).
+SIH,RD,TPDISEC7,diagnostico,TABELA FILHA 'diagnostico': tipo do diagnóstico de ORDEM 7 (vai na mesma linha do DIAGSEC7).
+SIH,RD,TPDISEC8,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RD,TPDISEC9,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,SP,SP_GESTOR,ato_profissional,
+SIH,SP,SP_UF,fora,FORA (revisão 2026-10-21): dado da internação que já está no SIH-RD; na origem normalizada o ato guarda só a chave da AIH. A data da carga (DT_TRANSACAO) do ato vem da AIH correspondente no RD.
+SIH,SP,SP_AA,ato_profissional,"CHAVE da AIH (N_AIH, SEQUENCIA, competência): é só isto que o ato guarda da internação; repetir em ato_profissional e profissional. O restante da internação está no SIH-RD."
+SIH,SP,SP_MM,ato_profissional,"CHAVE da AIH (N_AIH, SEQUENCIA, competência): é só isto que o ato guarda da internação; repetir em ato_profissional e profissional. O restante da internação está no SIH-RD."
+SIH,SP,SP_CNES,ato_profissional,Liga ao cadastro CNES.
+SIH,SP,SP_NAIH,ato_profissional,"CHAVE da AIH (N_AIH, SEQUENCIA, competência); repetir em ato_profissional. DT_TRANSACAO do ato = o da AIH correspondente no SIH-RD (mesma competência; reapresentações chegam juntas)."
+SIH,SP,SP_PROCREA,ato_profissional,
+SIH,SP,SP_DTINTER,fora,FORA (revisão 2026-10-21): dado da internação que já está no SIH-RD; na origem normalizada o ato guarda só a chave da AIH. A data da carga (DT_TRANSACAO) do ato vem da AIH correspondente no RD.
+SIH,SP,SP_DTSAIDA,fora,FORA (revisão 2026-10-21): dado da internação que já está no SIH-RD; na origem normalizada o ato guarda só a chave da AIH. A data da carga (DT_TRANSACAO) do ato vem da AIH correspondente no RD.
+SIH,SP,SP_NUM_PR,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,SP,SP_TIPO,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,SP,SP_CPFCGC,ato_profissional,"Estabelecimento onde o ato foi feito (decisão 2026-10-21): CNES, CPF ou CNPJ; na prática quase sempre CNES com zeros à esquerda. Fica no ato_profissional. Recebe hash só quando parecer CPF."
+SIH,SP,SP_ATOPROF,ato_profissional,"Ato profissional (procedimento do profissional, liga à SIGTAP). Cada linha do SP é um ato: a chave da AIH não basta; ver seção 7 da exploração."
+SIH,SP,SP_TP_ATO,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,SP,SP_QTD_ATO,ato_profissional,
+SIH,SP,SP_PTSP,ato_profissional,
+SIH,SP,SP_NF,ato_profissional,Confirmar significado no layout (IT_SIHSUS).
+SIH,SP,SP_VALATO,ato_profissional,
+SIH,SP,SP_M_HOSP,ato_profissional,
+SIH,SP,SP_M_PAC,ato_profissional,
+SIH,SP,SP_DES_HOS,ato_profissional,
+SIH,SP,SP_DES_PAC,ato_profissional,
+SIH,SP,SP_COMPLEX,ato_profissional,
+SIH,SP,SP_FINANC,ato_profissional,
+SIH,SP,SP_CO_FAEC,ato_profissional,
+SIH,SP,SP_PF_CBO,profissional,CHAVE do profissional (com SP_PF_DOC): ocupação do profissional; repetida em ato_profissional.
+SIH,SP,SP_PF_DOC,profissional,"CHAVE do profissional (decisão 2026-10-21): CNS com HASH (sha256 com sal fixo) + SP_PF_CBO. A tabela profissional tem UMA linha por profissional distinto, SEM versões; ato_profissional guarda esta chave (nula quando o ato não tem documento: 68,5% dos atos; no DW vira o membro -1 'não informado'). DT_TRANSACAO do profissional = a do primeiro ato em que ele aparece."
+SIH,SP,SP_PJ_DOC,ato_profissional,Estabelecimento onde o ato foi feito (decisão 2026-10-21): na prática o CNES com zeros à esquerda. Fica no ato_profissional.
+SIH,SP,IN_TP_VAL,ato_profissional,
+SIH,SP,SEQUENCIA,ato_profissional,"CHAVE da AIH (N_AIH, SEQUENCIA, competência): é só isto que o ato guarda da internação; repetir em ato_profissional e profissional. O restante da internação está no SIH-RD."
+SIH,SP,REMESSA,fora,FORA (revisão 2026-10-21): dado da internação que já está no SIH-RD; na origem normalizada o ato guarda só a chave da AIH. A data da carga (DT_TRANSACAO) do ato vem da AIH correspondente no RD.
+SIH,SP,SERV_CLA,ato_profissional,
+SIH,SP,SP_CIDPRI,ato_profissional,
+SIH,SP,SP_CIDSEC,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,SP,SP_QT_PROC,ato_profissional,
+SIH,SP,SP_U_AIH,fora,FORA (revisão 2026-10-21): dado da internação que já está no SIH-RD; na origem normalizada o ato guarda só a chave da AIH. A data da carga (DT_TRANSACAO) do ato vem da AIH correspondente no RD.
+SIM,DO,ORIGEM,obito,
+SIM,DO,TIPOBITO,obito,
+SIM,DO,DTOBITO,obito,Data do evento para a carga diária.
+SIM,DO,HORAOBITO,obito,
+SIM,DO,NATURAL,falecido,
+SIM,DO,CODMUNNATU,falecido,
+SIM,DO,DTNASC,falecido,Data de nascimento do falecido.
+SIM,DO,IDADE,falecido,
+SIM,DO,SEXO,falecido,
+SIM,DO,RACACOR,falecido,
+SIM,DO,ESTCIV,falecido,
+SIM,DO,ESC,falecido,
+SIM,DO,ESC2010,falecido,
+SIM,DO,SERIESCFAL,falecido,
+SIM,DO,OCUP,falecido,Ocupação (liga à CBO).
+SIM,DO,CODMUNRES,falecido,Município de residência (6 dígitos).
+SIM,DO,LOCOCOR,obito,
+SIM,DO,CODESTAB,obito,Estabelecimento (liga ao CNES).
+SIM,DO,ESTABDESCR,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIM,DO,CODMUNOCOR,obito,Município de ocorrência.
+SIM,DO,IDADEMAE,mae,
+SIM,DO,ESCMAE,mae,
+SIM,DO,ESCMAE2010,mae,
+SIM,DO,SERIESCMAE,mae,
+SIM,DO,OCUPMAE,mae,
+SIM,DO,QTDFILVIVO,mae,
+SIM,DO,QTDFILMORT,mae,
+SIM,DO,GRAVIDEZ,gestacao_parto,
+SIM,DO,SEMAGESTAC,gestacao_parto,
+SIM,DO,GESTACAO,gestacao_parto,
+SIM,DO,PARTO,gestacao_parto,
+SIM,DO,OBITOPARTO,gestacao_parto,
+SIM,DO,PESO,gestacao_parto,
+SIM,DO,TPMORTEOCO,gestacao_parto,
+SIM,DO,OBITOGRAV,gestacao_parto,
+SIM,DO,OBITOPUERP,gestacao_parto,
+SIM,DO,ASSISTMED,assistencia,
+SIM,DO,EXAME,assistencia,
+SIM,DO,CIRURGIA,assistencia,
+SIM,DO,NECROPSIA,assistencia,
+SIM,DO,LINHAA,causa_morte,"Linhas do atestado (A, B, C, D, II): candidatas a tabela filha causa_linha (ordem + CID), uma linha por linha do atestado."
+SIM,DO,LINHAB,causa_morte,
+SIM,DO,LINHAC,causa_morte,
+SIM,DO,LINHAD,causa_morte,
+SIM,DO,LINHAII,causa_morte,
+SIM,DO,CAUSABAS,causa_morte,"Causa básica (CID-10, liga ao cadastro de CID)."
+SIM,DO,CB_PRE,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIM,DO,COMUNSVOIM,causa_morte,
+SIM,DO,DTATESTADO,atestado,
+SIM,DO,CIRCOBITO,obito,
+SIM,DO,ACIDTRAB,obito,
+SIM,DO,FONTE,obito,
+SIM,DO,NUMEROLOTE,controle_sistema,
+SIM,DO,TPPOS,obito,
+SIM,DO,DTINVESTIG,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,CAUSABAS_O,causa_morte,
+SIM,DO,DTCADASTRO,controle_sistema,
+SIM,DO,ATESTANTE,atestado,
+SIM,DO,STCODIFICA,causa_morte,
+SIM,DO,CODIFICADO,causa_morte,
+SIM,DO,VERSAOSIST,controle_sistema,
+SIM,DO,VERSAOSCB,controle_sistema,
+SIM,DO,FONTEINV,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,DTRECEBIM,controle_sistema,
+SIM,DO,ATESTADO,atestado,
+SIM,DO,DTRECORIGA,controle_sistema,
+SIM,DO,CAUSAMAT,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIM,DO,ESCMAEAGR1,mae,
+SIM,DO,ESCFALAGR1,falecido,
+SIM,DO,STDOEPIDEM,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIM,DO,STDONOVA,controle_sistema,
+SIM,DO,DIFDATA,controle_sistema,
+SIM,DO,NUDIASOBCO,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,NUDIASOBIN,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIM,DO,DTCADINV,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,TPOBITOCOR,obito,
+SIM,DO,DTCONINV,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,FONTES,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,TPRESGINFO,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,TPNIVELINV,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,NUDIASINF,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIM,DO,DTCADINF,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,MORTEPARTO,gestacao_parto,
+SIM,DO,DTCONCASO,investigacao,ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIM,DO,FONTESINF,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIM,DO,ALTCAUSA,causa_morte,
+SIM,DO,CONTADOR,controle_sistema,"CHAVE: repetir em todas as tabelas do grupo. CONTADOR é um contador por arquivo (UF + ano), sem significado de negócio: NÃO é único sozinho (cerca de metade se repete entre arquivos), mas UF + ano + CONTADOR é único (ver seção 7 da exploração). Alternativa: id determinístico arquivo:linha."
+SINASC,DN,ORIGEM,nascimento,
+SINASC,DN,CODESTAB,nascimento,Estabelecimento (liga ao CNES).
+SINASC,DN,CODMUNNASC,nascimento,
+SINASC,DN,LOCNASC,nascimento,
+SINASC,DN,IDADEMAE,pais,
+SINASC,DN,ESTCIVMAE,pais,
+SINASC,DN,ESCMAE,pais,
+SINASC,DN,CODOCUPMAE,pais,Ocupação da mãe (liga à CBO).
+SINASC,DN,QTDFILVIVO,pais,
+SINASC,DN,QTDFILMORT,pais,
+SINASC,DN,CODMUNRES,pais,Município de residência da mãe (6 dígitos).
+SINASC,DN,GESTACAO,gestacao_parto,
+SINASC,DN,GRAVIDEZ,gestacao_parto,
+SINASC,DN,PARTO,gestacao_parto,
+SINASC,DN,CONSULTAS,gestacao_parto,
+SINASC,DN,DTNASC,nascimento,Data do evento para a carga diária.
+SINASC,DN,HORANASC,nascimento,
+SINASC,DN,SEXO,nascimento,
+SINASC,DN,APGAR1,nascimento,
+SINASC,DN,APGAR5,nascimento,
+SINASC,DN,RACACOR,nascimento,
+SINASC,DN,PESO,nascimento,
+SINASC,DN,IDANOMAL,nascimento,
+SINASC,DN,DTCADASTRO,controle_sistema,
+SINASC,DN,CODANOMAL,nascimento,Anomalia congênita (CID-10).
+SINASC,DN,NUMEROLOTE,controle_sistema,
+SINASC,DN,VERSAOSIST,controle_sistema,
+SINASC,DN,DTRECEBIM,controle_sistema,
+SINASC,DN,DIFDATA,controle_sistema,
+SINASC,DN,DTRECORIGA,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SINASC,DN,NATURALMAE,pais,
+SINASC,DN,CODMUNNATU,pais,
+SINASC,DN,CODUFNATU,pais,
+SINASC,DN,ESCMAE2010,pais,
+SINASC,DN,SERIESCMAE,pais,
+SINASC,DN,DTNASCMAE,pais,
+SINASC,DN,RACACORMAE,pais,
+SINASC,DN,QTDGESTANT,pais,
+SINASC,DN,QTDPARTNOR,pais,
+SINASC,DN,QTDPARTCES,pais,
+SINASC,DN,IDADEPAI,pais,
+SINASC,DN,DTULTMENST,gestacao_parto,
+SINASC,DN,SEMAGESTAC,gestacao_parto,
+SINASC,DN,TPMETESTIM,gestacao_parto,
+SINASC,DN,CONSPRENAT,gestacao_parto,
+SINASC,DN,MESPRENAT,gestacao_parto,
+SINASC,DN,TPAPRESENT,gestacao_parto,
+SINASC,DN,STTRABPART,gestacao_parto,
+SINASC,DN,STCESPARTO,gestacao_parto,
+SINASC,DN,TPNASCASSI,gestacao_parto,
+SINASC,DN,TPFUNCRESP,declarante,
+SINASC,DN,TPDOCRESP,declarante,
+SINASC,DN,DTDECLARAC,declarante,
+SINASC,DN,ESCMAEAGR1,pais,
+SINASC,DN,STDNEPIDEM,controle_sistema,
+SINASC,DN,STDNNOVA,controle_sistema,
+SINASC,DN,CODPAISRES,pais,
+SINASC,DN,TPROBSON,gestacao_parto,
+SINASC,DN,PARIDADE,gestacao_parto,
+SINASC,DN,KOTELCHUCK,gestacao_parto,
+SINASC,DN,CONTADOR,controle_sistema,"CHAVE: repetir em todas as tabelas do grupo. CONTADOR é um contador por arquivo (UF + ano), sem significado de negócio: NÃO é único sozinho (cerca de metade se repete entre arquivos), mas UF + ano + CONTADOR é único (ver seção 7 da exploração). Alternativa: id determinístico arquivo:linha."
+CNES,DC,CNES,nefrologia_dialise,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,DC,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,COD_IR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,VINC_SUS,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,TP_PREST,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,S_HBSAGP,nefrologia_dialise,"Agrupamento do DC CONFERIDO no layout do CNES (IT_CNES_1706): campos 23-39 = nefrologia/diálise, 40-73 = radioterapia e quimioterapia (salas de quimio, capela de fluxo laminar, simuladores, aceleradores, CNS dos responsáveis), 74-111 = hemoterapia."
+CNES,DC,S_HBSAGN,nefrologia_dialise,
+CNES,DC,S_DPI,nefrologia_dialise,
+CNES,DC,S_DPAC,nefrologia_dialise,
+CNES,DC,S_REAGP,nefrologia_dialise,
+CNES,DC,S_REAGN,nefrologia_dialise,
+CNES,DC,S_REHCV,nefrologia_dialise,
+CNES,DC,MAQ_PROP,nefrologia_dialise,
+CNES,DC,MAQ_OUTR,nefrologia_dialise,
+CNES,DC,F_AREIA,nefrologia_dialise,
+CNES,DC,F_CARVAO,nefrologia_dialise,
+CNES,DC,ABRANDAD,nefrologia_dialise,
+CNES,DC,DEIONIZA,nefrologia_dialise,
+CNES,DC,OSMOSE_R,nefrologia_dialise,
+CNES,DC,OUT_TRAT,nefrologia_dialise,
+CNES,DC,CNS_NEFR,nefrologia_dialise,
+CNES,DC,DIALISE,nefrologia_dialise,
+CNES,DC,SIMUL_RD,radioterapia_quimioterapia,
+CNES,DC,PLANJ_RD,radioterapia_quimioterapia,
+CNES,DC,ARMAZ_FT,radioterapia_quimioterapia,
+CNES,DC,CONF_MAS,radioterapia_quimioterapia,
+CNES,DC,SALA_MOL,radioterapia_quimioterapia,
+CNES,DC,BLOCOPER,radioterapia_quimioterapia,
+CNES,DC,S_ARMAZE,radioterapia_quimioterapia,
+CNES,DC,S_PREPAR,radioterapia_quimioterapia,
+CNES,DC,S_QCDURA,radioterapia_quimioterapia,
+CNES,DC,S_QLDURA,radioterapia_quimioterapia,
+CNES,DC,S_CPFLUX,radioterapia_quimioterapia,
+CNES,DC,S_SIMULA,radioterapia_quimioterapia,
+CNES,DC,S_ACELL6,radioterapia_quimioterapia,
+CNES,DC,S_ALSEME,radioterapia_quimioterapia,
+CNES,DC,S_ALCOME,radioterapia_quimioterapia,
+CNES,DC,ORTV1050,radioterapia_quimioterapia,
+CNES,DC,ORV50150,radioterapia_quimioterapia,
+CNES,DC,OV150500,radioterapia_quimioterapia,
+CNES,DC,UN_COBAL,radioterapia_quimioterapia,
+CNES,DC,EQBRBAIX,radioterapia_quimioterapia,
+CNES,DC,EQBRMEDI,radioterapia_quimioterapia,
+CNES,DC,EQBRALTA,radioterapia_quimioterapia,
+CNES,DC,EQ_MAREA,radioterapia_quimioterapia,
+CNES,DC,EQ_MINDI,radioterapia_quimioterapia,
+CNES,DC,EQSISPLN,radioterapia_quimioterapia,
+CNES,DC,EQDOSCLI,radioterapia_quimioterapia,
+CNES,DC,EQFONSEL,radioterapia_quimioterapia,
+CNES,DC,CNS_ADM,radioterapia_quimioterapia,
+CNES,DC,CNS_OPED,radioterapia_quimioterapia,
+CNES,DC,CNS_CONC,radioterapia_quimioterapia,
+CNES,DC,CNS_OCLIN,radioterapia_quimioterapia,
+CNES,DC,CNS_MRAD,radioterapia_quimioterapia,
+CNES,DC,CNS_FNUC,radioterapia_quimioterapia,
+CNES,DC,QUIMRADI,radioterapia_quimioterapia,
+CNES,DC,S_RECEPC,hemoterapia,
+CNES,DC,S_TRIHMT,hemoterapia,
+CNES,DC,S_TRICLI,hemoterapia,
+CNES,DC,S_COLETA,hemoterapia,
+CNES,DC,S_AFERES,hemoterapia,
+CNES,DC,S_PREEST,hemoterapia,
+CNES,DC,S_PROCES,hemoterapia,
+CNES,DC,S_ESTOQU,hemoterapia,
+CNES,DC,S_DISTRI,hemoterapia,
+CNES,DC,S_SOROLO,hemoterapia,
+CNES,DC,S_IMUNOH,hemoterapia,
+CNES,DC,S_PRETRA,hemoterapia,
+CNES,DC,S_HEMOST,hemoterapia,
+CNES,DC,S_CONTRQ,hemoterapia,
+CNES,DC,S_BIOMOL,hemoterapia,
+CNES,DC,S_IMUNFE,hemoterapia,
+CNES,DC,S_TRANSF,hemoterapia,
+CNES,DC,S_SGDOAD,hemoterapia,
+CNES,DC,QT_CADRE,hemoterapia,
+CNES,DC,QT_CENRE,hemoterapia,
+CNES,DC,QT_REFSA,hemoterapia,
+CNES,DC,QT_CONRA,hemoterapia,
+CNES,DC,QT_EXTPL,hemoterapia,
+CNES,DC,QT_FRE18,hemoterapia,
+CNES,DC,QT_FRE30,hemoterapia,
+CNES,DC,QT_AGIPL,hemoterapia,
+CNES,DC,QT_SELAD,hemoterapia,
+CNES,DC,QT_IRRHE,hemoterapia,
+CNES,DC,QT_AGLTN,hemoterapia,
+CNES,DC,QT_MAQAF,hemoterapia,
+CNES,DC,QT_REFRE,hemoterapia,
+CNES,DC,QT_REFAS,hemoterapia,
+CNES,DC,QT_CAPFL,hemoterapia,
+CNES,DC,CNS_HMTR,hemoterapia,
+CNES,DC,CNS_HMTL,hemoterapia,
+CNES,DC,CNS_CRES,hemoterapia,
+CNES,DC,CNS_RTEC,hemoterapia,
+CNES,DC,HEMOTERA,hemoterapia,
+CNES,DC,AP01CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP01CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP01CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP01CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP01CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP01CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP01CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP02CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP02CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP02CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP02CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP02CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP02CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP02CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP03CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP03CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP03CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP03CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP03CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP03CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP03CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP04CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP04CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP04CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP04CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP04CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP04CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP04CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP05CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP05CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP05CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP05CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP05CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP05CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP05CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP06CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP06CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP06CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP06CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP06CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP06CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP06CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP07CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP07CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP07CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP07CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP07CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP07CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,AP07CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,ATEND_PR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,GESPRG3E,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,GESPRG3M,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,GESPRG4E,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,GESPRG4M,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,GESPRG6E,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,GESPRG6M,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,NIVATE_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,NIVATE_H,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,DC,COMPETEN,nefrologia_dialise,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,DC,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,CNES,estab_ensino,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,EE,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,COD_CEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,VINC_SUS,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,TP_PREST,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EE,SGRUPHAB,estab_ensino,"Layout CONFERIDO (IT_CNES_1706): mesma estrutura do HB, sem o campo NULEITOS (que só existe no HB). Um assunto por grupo."
+CNES,EE,CMPT_INI,estab_ensino,
+CNES,EE,CMPT_FIM,estab_ensino,
+CNES,EE,DTPORTAR,estab_ensino,
+CNES,EE,PORTARIA,estab_ensino,
+CNES,EE,MAPORTAR,estab_ensino,
+CNES,EE,COMPETEN,estab_ensino,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,EE,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,CNES,estab_filantropico,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,EF,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,COD_CEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,VINC_SUS,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,TP_PREST,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EF,SGRUPHAB,estab_filantropico,"Layout CONFERIDO (IT_CNES_1706): mesma estrutura do HB, sem o campo NULEITOS (que só existe no HB). Um assunto por grupo."
+CNES,EF,CMPT_INI,estab_filantropico,
+CNES,EF,CMPT_FIM,estab_filantropico,
+CNES,EF,DTPORTAR,estab_filantropico,
+CNES,EF,PORTARIA,estab_filantropico,
+CNES,EF,MAPORTAR,estab_filantropico,
+CNES,EF,COMPETEN,estab_filantropico,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,EF,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,CNES,equipe,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,EP,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,COD_CEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,COD_IR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,VINC_SUS,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,TP_PREST,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG1E,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG1M,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG2E,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG2M,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG4E,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG4M,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,NIVATE_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG3E,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG3M,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG5E,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG5M,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG6E,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,GESPRG6M,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,NIVATE_H,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP01CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP01CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP01CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP01CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP01CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP01CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP01CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP02CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP02CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP02CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP02CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP02CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP02CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP02CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP03CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP03CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP03CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP03CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP03CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP03CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP03CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP04CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP04CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP04CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP04CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP04CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP04CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP04CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP05CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP05CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP05CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP05CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP05CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP05CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP05CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP06CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP06CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP06CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP06CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP06CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP06CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP06CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP07CV01,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP07CV02,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP07CV05,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP07CV06,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP07CV03,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP07CV04,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,AP07CV07,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,ATEND_PR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,EP,IDEQUIPE,equipe,Identificador da equipe (parte da chave: CNES + COMPETEN + IDEQUIPE ainda pode repetir; ver exploração).
+CNES,EP,TIPO_EQP,equipe,
+CNES,EP,NOME_EQP,equipe,
+CNES,EP,ID_AREA,equipe,
+CNES,EP,NOMEAREA,equipe,
+CNES,EP,ID_SEGM,equipe,
+CNES,EP,DESCSEGM,equipe,
+CNES,EP,TIPOSEGM,equipe,
+CNES,EP,DT_ATIVA,equipe,
+CNES,EP,DT_DESAT,equipe,
+CNES,EP,QUILOMBO,populacao_atendida,
+CNES,EP,ASSENTAD,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,EP,POPGERAL,populacao_atendida,
+CNES,EP,ESCOLA,populacao_atendida,
+CNES,EP,INDIGENA,populacao_atendida,
+CNES,EP,PRONASCI,descartada,DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+CNES,EP,MOTDESAT,equipe,
+CNES,EP,TP_DESAT,equipe,
+CNES,EP,COMPETEN,equipe,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,EP,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,CNES,gestao_metas,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,GM,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,COD_CEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,VINC_SUS,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,TP_PREST,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,GM,SGRUPHAB,gestao_metas,"Layout CONFERIDO (IT_CNES_1706): mesma estrutura do HB, sem o campo NULEITOS (que só existe no HB). Um assunto por grupo."
+CNES,GM,CMPT_INI,gestao_metas,
+CNES,GM,CMPT_FIM,gestao_metas,
+CNES,GM,DTPORTAR,gestao_metas,
+CNES,GM,PORTARIA,gestao_metas,
+CNES,GM,MAPORTAR,gestao_metas,
+CNES,GM,COMPETEN,gestao_metas,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,GM,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,CNES,incentivo,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,IN,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,COD_CEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,VINC_SUS,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,TP_PREST,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,IN,SGRUPHAB,incentivo,"Layout CONFERIDO (IT_CNES_1706): mesma estrutura do HB, sem o campo NULEITOS (que só existe no HB). Um assunto por grupo."
+CNES,IN,CMPT_INI,incentivo,
+CNES,IN,CMPT_FIM,incentivo,
+CNES,IN,DTPORTAR,incentivo,
+CNES,IN,PORTARIA,incentivo,
+CNES,IN,MAPORTAR,incentivo,
+CNES,IN,COMPETEN,incentivo,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,IN,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,CNES,regra_contratual,CHAVE: repetir em todas as tabelas do grupo. Código do estabelecimento (liga ao CNES-ST).
+CNES,RC,CODUFMUN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,REGSAUDE,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,MICR_REG,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,DISTRSAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,DISTRADM,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,TPGESTAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,PF_PJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,CPF_CNPJ,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,NIV_DEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,CNPJ_MAN,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,ESFERA_A,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,RETENCAO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,ATIVIDAD,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,NATUREZA,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,CLIENTEL,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,TP_UNID,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,TURNO_AT,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,NIV_HIER,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,TERCEIRO,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,COD_CEP,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,VINC_SUS,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,TP_PREST,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+CNES,RC,SGRUPHAB,regra_contratual,"Layout CONFERIDO (IT_CNES_1706): mesma estrutura do HB, sem o campo NULEITOS (que só existe no HB). Um assunto por grupo."
+CNES,RC,CMPT_INI,regra_contratual,
+CNES,RC,CMPT_FIM,regra_contratual,
+CNES,RC,DTPORTAR,regra_contratual,
+CNES,RC,PORTARIA,regra_contratual,
+CNES,RC,MAPORTAR,regra_contratual,
+CNES,RC,COMPETEN,regra_contratual,CHAVE: repetir em todas as tabelas do grupo. Competência AAAAMM (foto mensal).
+CNES,RC,NAT_JUR,estabelecimento_replicado,"FORA (decisão 2026-10-21): atributo do estabelecimento; vem do CNES-ST, não é carregado de novo neste grupo."
+SIH,RJ,UF_ZI,internacao,Como no SIH-RD. UF de gestão (zona de interesse); o arquivo é por UF.
+SIH,RJ,ANO_CMPT,internacao,Como no SIH-RD. CHAVE: repetir em todas as tabelas do grupo. Competência (ano). N_AIH + SEQUENCIA + competência é único (ver exploração).
+SIH,RJ,MES_CMPT,internacao,Como no SIH-RD. CHAVE: repetir em todas as tabelas do grupo. Competência (mês).
+SIH,RJ,ESPEC,internacao,Como no SIH-RD. 
+SIH,RJ,CGC_HOSP,estabelecimento,Como no SIH-RD. 
+SIH,RJ,N_AIH,internacao,Como no SIH-RD. CHAVE: repetir em todas as tabelas do grupo. Número da AIH; repete entre linhas (ver seção 7 da exploração).
+SIH,RJ,IDENT,internacao,Como no SIH-RD. 
+SIH,RJ,CEP,paciente,Como no SIH-RD. 
+SIH,RJ,MUNIC_RES,paciente,"Como no SIH-RD. Município de residência (6 dígitos, liga ao cadastro de municípios)."
+SIH,RJ,NASC,paciente,Como no SIH-RD. 
+SIH,RJ,SEXO,paciente,Como no SIH-RD. 
+SIH,RJ,UTI_MES_IN,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,UTI_MES_AN,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,UTI_MES_AL,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,UTI_MES_TO,uti,Como no SIH-RD. ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RJ,MARCA_UTI,uti,Como no SIH-RD. ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RJ,UTI_INT_IN,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,UTI_INT_AN,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,UTI_INT_AL,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,UTI_INT_TO,uti,Como no SIH-RD. ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RJ,DIAR_ACOM,internacao,Como no SIH-RD. 
+SIH,RJ,QT_DIARIAS,internacao,Como no SIH-RD. 
+SIH,RJ,PROC_SOLIC,procedimento_financiamento,Como no SIH-RD. Procedimento solicitado (liga à SIGTAP).
+SIH,RJ,PROC_REA,procedimento_financiamento,Como no SIH-RD. Procedimento realizado (liga à SIGTAP).
+SIH,RJ,VAL_SH,valores,Como no SIH-RD. 
+SIH,RJ,VAL_SP,valores,Como no SIH-RD. 
+SIH,RJ,VAL_SADT,valores,Como no SIH-RD. 
+SIH,RJ,VAL_RN,valores,Como no SIH-RD. 
+SIH,RJ,VAL_ACOMP,valores,Como no SIH-RD. 
+SIH,RJ,VAL_ORTP,valores,Como no SIH-RD. 
+SIH,RJ,VAL_SANGUE,valores,Como no SIH-RD. 
+SIH,RJ,VAL_SADTSR,valores,Como no SIH-RD. 
+SIH,RJ,VAL_TRANSP,valores,Como no SIH-RD. 
+SIH,RJ,VAL_OBSANG,valores,Como no SIH-RD. 
+SIH,RJ,VAL_PED1AC,valores,Como no SIH-RD. 
+SIH,RJ,VAL_TOT,valores,Como no SIH-RD. 
+SIH,RJ,VAL_UTI,valores,Como no SIH-RD. Valor de UTI: fica em valores; o detalhe de dias de UTI está em uti.
+SIH,RJ,US_TOT,valores,Como no SIH-RD. 
+SIH,RJ,DT_INTER,internacao,Como no SIH-RD. 
+SIH,RJ,DT_SAIDA,internacao,Como no SIH-RD. 
+SIH,RJ,DIAG_PRINC,diagnostico,Como no SIH-RD. TABELA FILHA 'diagnostico' (uma linha por diagnóstico): principal com ORDEM 0.
+SIH,RJ,DIAG_SECUN,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,COBRANCA,internacao,Como no SIH-RD. Motivo de saída/permanência; mantido em internacao.
+SIH,RJ,NATUREZA,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,NAT_JUR,estabelecimento,Como no SIH-RD. 
+SIH,RJ,GESTAO,estabelecimento,Como no SIH-RD. 
+SIH,RJ,RUBRICA,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,IND_VDRL,gestacao,"Como no SIH-RD. ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RJ,MUNIC_MOV,estabelecimento,Como no SIH-RD. 
+SIH,RJ,COD_IDADE,paciente,Como no SIH-RD. 
+SIH,RJ,IDADE,paciente,Como no SIH-RD. 
+SIH,RJ,DIAS_PERM,internacao,Como no SIH-RD. 
+SIH,RJ,MORTE,internacao,Como no SIH-RD. 
+SIH,RJ,NACIONAL,paciente,Como no SIH-RD. 
+SIH,RJ,NUM_PROC,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,CAR_INT,internacao,Como no SIH-RD. 
+SIH,RJ,TOT_PT_SP,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,CPF_AUT,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,HOMONIMO,paciente,Como no SIH-RD. 
+SIH,RJ,NUM_FILHOS,gestacao,"Como no SIH-RD. ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RJ,INSTRU,paciente,Como no SIH-RD. 
+SIH,RJ,CID_NOTIF,diagnostico,"Como no SIH-RD. TABELA FILHA 'diagnostico' (decisão 2026-10-21): CID de notificação vira uma linha própria com TIPO 'notificacao' (sem ordem de 0 a 7; só quando preenchido, ~1,1% das linhas)."
+SIH,RJ,CONTRACEP1,gestacao,"Como no SIH-RD. ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RJ,CONTRACEP2,gestacao,"Como no SIH-RD. ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RJ,GESTRISCO,gestacao,"Como no SIH-RD. VALOR PADRÃO (decisão 2026-10-21): vale '1' em 99,9% das linhas e NÃO conta como conteúdo na regra da tabela esparsa. IND_VDRL conta como dado."
+SIH,RJ,INSC_PN,gestacao,"Como no SIH-RD. ESPARSA: só as linhas com algum conteúdo, sem contar GESTRISCO (valor padrão); ~12,5% das linhas do SIH-RD. "
+SIH,RJ,SEQ_AIH5,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,CBOR,paciente,Como no SIH-RD. Ocupação do paciente (CBO).
+SIH,RJ,CNAER,paciente,Como no SIH-RD. 
+SIH,RJ,VINCPREV,paciente,Como no SIH-RD. 
+SIH,RJ,GESTOR_COD,gestor_auditoria,Como no SIH-RD. ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RJ,GESTOR_TP,gestor_auditoria,Como no SIH-RD. ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). 
+SIH,RJ,GESTOR_CPF,gestor_auditoria,Como no SIH-RD. ESPARSA: só as linhas com algum dado preenchido (não vazio e não sentinela). HASH na origem simulada (decisão 2026-10-21): sha256 de config.SAL_HASH_PII + valor. 
+SIH,RJ,GESTOR_DT,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,CNES,estabelecimento,Como no SIH-RD. Liga ao cadastro CNES.
+SIH,RJ,CNPJ_MANT,estabelecimento,Como no SIH-RD. 
+SIH,RJ,INFEHOSP,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,CID_ASSO,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,CID_MORTE,descartada,Como no SIH-RD. DESCARTADA (revisão 2026-10-21): coluna 100% vazia ou sentinela no recorte.
+SIH,RJ,COMPLEX,procedimento_financiamento,Como no SIH-RD. 
+SIH,RJ,FINANC,procedimento_financiamento,Como no SIH-RD. 
+SIH,RJ,FAEC_TP,procedimento_financiamento,Como no SIH-RD. 
+SIH,RJ,REGCT,procedimento_financiamento,Como no SIH-RD. 
+SIH,RJ,RACA_COR,paciente,Como no SIH-RD. 
+SIH,RJ,ETNIA,paciente,Como no SIH-RD. 
+SIH,RJ,SEQUENCIA,internacao,Como no SIH-RD. CHAVE: repetir em todas as tabelas do grupo. Sequência dentro da AIH.
+SIH,RJ,REMESSA,internacao,Como no SIH-RD. 
+SIH,RJ,ST_SITUAC,internacao,Situação da AIH rejeitada (só existe no RJ).
+SIH,RJ,ST_BLOQ,internacao,Indicador de bloqueio da AIH (só existe no RJ).
+SIH,RJ,ST_MOT_BLO,internacao,Motivo do bloqueio/rejeição (só existe no RJ).

@@ -1,0 +1,18 @@
+# PostgreSQL 17 do DW. Subir: docker compose up -d   |   Derrubar (mantendo dados): docker compose down
+# Os schemas (um por camada) são criados por docker/init/01_schemas.sql na primeira subida.
+services:
+  dw:
+    image: postgres:17.11   # versão fixa: a mesma em qualquer máquina
+    container_name: dw_datasus
+    environment:
+      POSTGRES_USER: dw
+      POSTGRES_PASSWORD: dw_local   # banco local
+      POSTGRES_DB: dw
+    ports:
+      - "5433:5432"                 # 5433 no host para não colidir com um Postgres local
+    volumes:
+      - dw_dados:/var/lib/postgresql/data
+      - ./docker/init:/docker-entrypoint-initdb.d:ro
+    shm_size: 1gb
+volumes:
+  dw_dados:

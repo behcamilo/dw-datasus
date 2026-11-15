@@ -1,0 +1,30 @@
+# Dados (baixados, derivados e logs): grandes e reproduzíveis. O manifesto (que prova qual versão de cada arquivo foi usada) é versionado.
+dados/*
+!dados/manifesto.csv
+
+# Arquivos locais
+scripts/config_local.py
+privado/
+
+# Gerados pelos scripts 11 a 14 (refeitos por ./executar.sh estrutura)
+dw_dbt/models/gerados/
+dw_dbt/models/gerados_derivados/
+dw_dbt/models/gerados_negocio/
+dw_dbt/seeds/ctl_*.csv
+
+# Saídas geradas pelos scripts (refeitas quando eles rodam)
+docs/execucoes/*.json
+docs/inventario.csv
+docs/resultados_dw_tabelas.csv
+
+# Ambientes e arquivos temporários
+.venv/
+.venv-dbt/
+.tmp/
+__pycache__/
+*.pyc
+*.log
+dw_dbt/target/
+dw_dbt/logs/
+dw_dbt/dbt_packages/
+dw_dbt/.user.yml

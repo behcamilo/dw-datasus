@@ -1,0 +1,22 @@
+name: dw_datasus
+version: "1.0"
+profile: dw_datasus
+model-paths: ["models"]
+macro-paths: ["macros"]
+seed-paths: ["seeds"]
+
+vars:
+  # Data de referência da carga (coluna DT_CARGA).
+  dt_carga: "2021-12-31"
+  # UFs que os modelos nacionais juntam. Só RR:  --vars '{ufs: [rr]}'
+  ufs: [ac, al, am, ap, ba, ce, df, es, go, ma, mg, ms, mt, pa, pb, pe, pi, pr, rj, rn, ro, rr, rs, sc, se, sp, to]
+
+seeds:
+  dw_datasus:
+    +schema: ctl
+    +column_types:
+      cod_tabela: bigint
+      cod_tabela_origem: bigint
+      cod_tabela_destino: bigint
+      ativo: boolean
+      dt_inclusao: date

@@ -1,0 +1,4 @@
+# Ambiente separado (.venv-dbt) só para o dbt: evita conflito de versões com o PySUS/DuckDB.
+dbt-core==1.12.6
+dbt-postgres==1.9.1
+psycopg2-binary==2.9.13

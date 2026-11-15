@@ -1,0 +1,13 @@
+# Conexão com o PostgreSQL do docker-compose.yml (uso: dbt <comando> --profiles-dir .)
+dw_datasus:
+  target: local
+  outputs:
+    local:
+      type: postgres
+      host: localhost
+      port: 5433
+      user: dw
+      password: dw_local
+      dbname: dw
+      schema: public     # só o padrão: cada modelo define o próprio schema (macro generate_schema_name)
+      threads: 4
